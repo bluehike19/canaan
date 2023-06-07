@@ -1,0 +1,88 @@
+body {
+  /* background-color: rgb(224, 224, 224); */
+  padding: 0;
+  margin: 0;
+  /* color: white; */
+}
+
+.title{
+  text-align: center;
+  display: block;
+  background-color: dimgray;
+}
+.time {
+  border: none;
+  border-radius: 3px;
+  margin-right: 20px;
+  background: #f2f2f2;
+  padding: 2px;
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* width: 50px; */
+  /* display: block; */
+}
+.myTable {
+  background-color: white;
+  display: block;
+}
+th, td {
+  padding: 5px 10px;
+  text-align: left;
+}
+
+tr, input {
+  border: none;
+  border-radius: 3px;
+  margin-right: 20px;
+  background: #f2f2f2;
+  padding: 2px;
+  width: 50px;
+  height: 30px;
+  font-size: 14px;
+}
+#ok-btn {
+  color: black;
+  background-color: yellow;
+  font-size: 14px;
+  width: 60px;
+  height: 30px;
+  margin-left: 0px;
+  
+}
+
+.answer-btn {
+  /* padding: 8px; */
+  width: 10px;
+  height: 10px; 
+  border: none;
+  background-color: none;
+}
+
+@media (max-width:600px) {
+  
+  body {
+    /* background-color: lightblue; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  table, th {
+    white-space: pre-wrap;
+  }
+ table, tr, td {
+    /* background-color: lightblue; */
+    width: 100%;
+    overflow-y: hidden;
+    margin-bottom: 15px;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    white-space: nowrap;
+    
+  }
+
+}

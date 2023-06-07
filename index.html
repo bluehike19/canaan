@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items Checker</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body style="height: 1000px;">
+    <div>
+      <div class="title">
+        <p><h1>Items Checker</h1></p>
+        <input class="time" type="datetime-local"><br><br>
+      </div> <br><br>
+      <table class="myTable" >
+          <tr>
+            <th>#</th>
+            <th>Items</td>
+            <th>Number of Items</th>
+            <th>Available Items</th>
+            <th>Missing Items</th>
+          </tr>     
+          <tr>
+            <th>1</th>
+            <th>Plates</th>
+            <td><input  type="number" id="plateA"></td>       
+            <td><input  type="number" id="plateB"><input id="ok-btn" type="button" name="btnSubtract" value="ok" onclick="subtract()"></td>
+            <td><button class="answer-btn" id="plateC"></button></td> 
+          </tr> 
+      </table>
+    </div> 
+    
+    <script src="scripts/index.js"></script>
+    <!-- <script src="scripts/items.js"></script> -->
+  </body>
+</html>
